@@ -1,0 +1,8 @@
+package br.com.senai.exemplos;
+
+public class Apartamento extends Imovel{
+	private int andar;
+
+
+
+}

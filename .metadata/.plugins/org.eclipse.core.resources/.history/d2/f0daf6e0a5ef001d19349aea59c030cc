@@ -1,0 +1,40 @@
+package br.com.senai.exemplos;
+
+public class Setor {
+
+	private int numero;
+	private String nome;
+	private int qtdeFuncionarios;
+	
+	//Construtor padrão ou default
+	public Setor() {
+		System.out.println("Entrei no construtor");
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public int getQtdeFuncionarios() {
+		return qtdeFuncionarios;
+	}
+
+	public void setQtdeFuncionarios(int qtdeFuncionarios) {
+		this.qtdeFuncionarios = qtdeFuncionarios;
+	}
+	
+	
+
+}

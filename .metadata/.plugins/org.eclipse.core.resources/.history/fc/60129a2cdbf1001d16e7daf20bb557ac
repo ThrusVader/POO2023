@@ -1,0 +1,23 @@
+package br.com.senai.herenca;
+
+public class PessoaFisica extends ImpostoDeRenda {
+	private String cpf;
+
+	public PessoaFisica(String nome, String email, double rendimentos, String cpf) {
+		super(nome, email, rendimentos);
+		this.cpf = cpf;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	@Override
+	public double imposto() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}

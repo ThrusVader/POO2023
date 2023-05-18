@@ -1,0 +1,6 @@
+package relacionamentos;
+
+public class Time {
+	private String nome;
+	private String treinador;
+}

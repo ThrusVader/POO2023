@@ -1,0 +1,23 @@
+package exercicio1;
+
+public class Testar {
+
+	public static void main(String[] args) {
+		Telefone[] telefones = new Telefone[2];
+		Telefone telefone1 = new Telefone("22456913");
+		Telefone telefone2 = new Telefone("22468931");
+		telefones[0] = telefone1;
+		telefones[1] = telefone2;
+		Estado estado1 = new Estado("Rio de Janeiro", "RJ");
+		Cidade cidade1 = new Cidade("Petrópolis", estado1);
+		Endereco endereco1 = new Endereco("Estrada do Carangola", "Carangola", "25715-221", cidade1);
+		Contato contato1 = new Contato("Uelison", endereco1);
+		
+		contato1.setTelefones(telefones);
+		
+		System.out.println("Nome: " + contato1.getNome());
+		System.out.println(contato1.getEndereco());
+		//System.out.println(mostrarTelefones());
+	}
+
+}

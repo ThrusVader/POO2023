@@ -1,0 +1,15 @@
+package exercicio1;
+
+public class Telefone extends Contato {
+	private String numero;
+
+	public Telefone(String nome, Telefone[] telefones, Endereco endereco, String numero) {
+		super(nome, telefones, endereco);
+		this.numero = numero;
+	}
+
+	public String getNumero() {
+		return numero;
+	}
+
+}

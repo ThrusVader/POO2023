@@ -1,0 +1,13 @@
+package exemplos;
+
+public class ControlePagamento {
+	private double totalPagoPlano;
+
+	public double getTotalPagoPlano() {
+		return totalPagoPlano;
+	}
+	
+	public void calcularTotalPlano() {
+		totalPagoPlano = 
+	}
+}

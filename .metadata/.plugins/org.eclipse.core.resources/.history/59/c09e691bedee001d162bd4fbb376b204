@@ -1,0 +1,23 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class TestarVeiculo {
+	
+
+	public static void main(String[] args) {
+		
+		Scanner ler	= new Scanner (System.in);
+		
+		System.out.println("Informe o nº da placa:");
+		String a = ler.next() ;
+		System.out.println("Informe o tipo do combustível:");
+		String b = ler.next() ;
+		System.out.println("Informe o valor do carro:");
+		double c = ler.nextDouble() ;
+		
+		
+		
+	}
+
+}

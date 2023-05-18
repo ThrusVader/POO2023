@@ -1,0 +1,16 @@
+package exercicios;
+
+import javax.swing.JOptionPane;
+
+public class TestarVeiculo {
+
+	public static void main(String[] args) {
+		int resposta = 0;
+		
+		Veiculo veiculo = new Veiculo();
+		veiculo.placa = JOptionPane.showInputDialog("Digite a placa:");
+		veiculo.tipoCombustivel = JOptionPane.showInputDialog("Digite o tipo do combustível:");
+		veiculo.valor = Double.parseDouble(JOptionPane.showInputDialog("Informe o valor:"));
+	}
+
+}

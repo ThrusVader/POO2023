@@ -1,0 +1,30 @@
+package br.com.senai.exercicio;
+
+import java.util.Scanner;
+
+public class TestarSistema {
+
+	public static void main(String[] args) {
+		char resposta = 'S';
+		
+		Scanner ler = new Scanner(System.in);
+		
+		Vendedor v1 = new Vendedor("Clarêncio", "123");
+		Vendedor v2 = new Vendedor("Osvaldo", "456");
+		
+		System.out.println("________________________________________________");
+		System.out.println("\n\t\t Sistema de Vendas");
+		System.out.println("________________________________________________");
+		System.out.println("1 - Clarêncio \n2 - Osvaldo");
+		do {
+			System.out.println("Informe o vendedor:");
+			double a = ler.nextDouble();
+			
+			System.out.println("Deseja encerrar o programa? (S/N)");
+			resposta = ler.next().charAt(0);
+		} while (resposta == 'N' || resposta == 'n');
+		
+		
+	}
+
+}

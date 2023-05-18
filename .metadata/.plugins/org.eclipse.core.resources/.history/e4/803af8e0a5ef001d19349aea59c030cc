@@ -1,0 +1,14 @@
+package br.com.senai.exemplos;
+
+public class TestarSetor {
+
+	public static void main(String[] args) {
+		
+		//Construtor
+		Setor setor1 = new Setor();
+		Setor setor2 = new Setor();
+		
+		
+	}
+
+}

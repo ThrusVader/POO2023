@@ -1,0 +1,17 @@
+package br.com.senai.exemplos;
+
+public class TestarFornecedor {
+
+	public static void main(String[] args) {
+		
+		Fornecedor fornecedor = new Fornecedor("Coca cola");
+		Fornecedor fornecedor2 = new Fornecedor("343434","XPTO 123");
+		
+		System.out.println(fornecedor2.getNome());
+		System.out.println(fornecedor.getNome());
+		
+	/*	fornecedor.setNome("Guaraná");
+		fornecedor2.setNome("XPTO 1234"); */
+	}
+
+}

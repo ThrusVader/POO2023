@@ -1,0 +1,59 @@
+package br.com.senai.exercicio;
+
+import java.util.Scanner;
+
+public class TestarSistema {
+
+	public static void main(String[] args) {
+		char resposta = 'S';
+		char resposta1 = 'res';
+		
+		Scanner ler = new Scanner(System.in);
+		
+		Vendedor v1 = new Vendedor("Clarêncio", "123");
+		Vendedor v2 = new Vendedor("Osvaldo", "456");
+		
+		Fixo f1 = new Fixo("Clarêncio", "123", 1600, 0, 1600);
+		Fixo f2 = new Fixo("Osvaldo", "456", 1500, 0, 1500);
+		
+		System.out.println("________________________________________________");
+		System.out.println("\n\t\t Sistema de Vendas");
+		System.out.println("________________________________________________");
+		System.out.println("1 - Clarêncio \n2 - Osvaldo");
+		do {
+			System.out.println("Informe o vendedor:");
+			double a = ler.nextDouble();
+			switch (a) {
+			case 1:
+				
+				break;
+
+			default:
+				break;
+			}
+			System.out.println("Deseja encerrar o programa? (S/N)");
+			resposta = ler.next().charAt(0);
+		} while (resposta == 'N' || resposta == 'n');
+		
+		System.out.println("________________________________________________");
+		System.out.println("\n\t\t Total Vendido");
+		System.out.println("________________________________________________");
+		System.out.println("Total: ");
+	}
+
+}
+
+
+
+if (a == 1) {
+	System.out.println("Você escolheu o Clarêncio.");
+	System.out.println("Digite o valor da venda:");
+	double b = ler.nextDouble();
+	v1.calcularSalario(b);
+}
+if (a == 2) {
+	System.out.println("Você escolheu o Osvaldo");
+	System.out.println("Digite o valor da venda:");
+	double c = ler.nextDouble();
+	v2.calcularSalario(c);
+}

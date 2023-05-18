@@ -1,0 +1,9 @@
+package exercicio1;
+
+public class Endereco extends Contato{
+	private String rua;
+	private String bairro;
+	private String cep;
+	private Cidade cidade;
+
+}

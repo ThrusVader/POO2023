@@ -1,0 +1,10 @@
+package br.com.senai.exemplos;
+
+public class TestarFornecedor {
+
+	public static void main(String[] args) {
+		
+		Fornecedor fornecedor = new Fornecedor();
+	}
+
+}

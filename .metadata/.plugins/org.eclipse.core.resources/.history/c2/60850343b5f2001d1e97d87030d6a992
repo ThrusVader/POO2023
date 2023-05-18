@@ -1,0 +1,25 @@
+package exercicio1;
+
+public class Contato extends Endereco {
+	protected String nome;
+	protected Telefone[] telefones;
+
+	public Contato(String rua, String bairro, String cep, Cidade cidade, String nome, Telefone[] telefones) {
+		super(rua, bairro, cep, cidade);
+		this.nome = nome;
+		this.telefones = telefones;
+	}
+
+	public Telefone[] getTelefones() {
+		return telefones;
+	}
+
+	public void setTelefones(Telefone[] telefones) {
+		this.telefones = telefones;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+}

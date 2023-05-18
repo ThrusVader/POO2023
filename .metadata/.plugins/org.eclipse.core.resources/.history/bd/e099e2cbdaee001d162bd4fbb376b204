@@ -1,0 +1,6 @@
+package exercicios;
+
+public class Funcionario {
+	String nome,telefone,email;
+	double salario;
+}

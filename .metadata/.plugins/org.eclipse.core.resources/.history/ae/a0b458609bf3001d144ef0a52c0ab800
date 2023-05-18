@@ -1,0 +1,9 @@
+package br.com.senai.exemplos;
+
+public class TestarFuncionario {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

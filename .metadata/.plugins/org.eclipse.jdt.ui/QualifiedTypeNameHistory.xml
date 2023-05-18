@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.awt.font.TextLayout"/>
+    <fullyQualifiedTypeName name="javax.management.openmbean.OpenMBeanConstructorInfoSupport"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="br.com.senai.herenca.Caminhao"/>
+    <fullyQualifiedTypeName name="br.com.senai.herenca.VeiculoPasseio"/>
+    <fullyQualifiedTypeName name="br.com.senai.herenca.Moto"/>
+    <fullyQualifiedTypeName name="br.com.senai.herenca.PessoaFisica"/>
+    <fullyQualifiedTypeName name="br.com.senai.herenca.PessoaJuridica"/>
+    <fullyQualifiedTypeName name="br.com.senai.herenca.ImpostoDeRenda"/>
+    <fullyQualifiedTypeName name="br.com.senai.exercicio.Vendedor"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="br.com.senai.exercicio.Fixo"/>
+    <fullyQualifiedTypeName name="exemplos.Clinica"/>
+    <fullyQualifiedTypeName name="exemplos.Medico"/>
+    <fullyQualifiedTypeName name="exemplos.Anestesista"/>
+    <fullyQualifiedTypeName name="exemplos.Plano"/>
+    <fullyQualifiedTypeName name="exemplos.ControlePagamento"/>
+    <fullyQualifiedTypeName name="relacionamentos.Pessoa"/>
+    <fullyQualifiedTypeName name="relacionamentos.Imovel"/>
+    <fullyQualifiedTypeName name="relacionamentos.Atleta"/>
+    <fullyQualifiedTypeName name="relacionamentos.Time"/>
+    <fullyQualifiedTypeName name="exercicio1.Estado"/>
+    <fullyQualifiedTypeName name="exercicio1.Cidade"/>
+    <fullyQualifiedTypeName name="exercicio1.Endereco"/>
+    <fullyQualifiedTypeName name="exercicio1.Contato"/>
+    <fullyQualifiedTypeName name="exercicio1.Telefone"/>
+    <fullyQualifiedTypeName name="br.com.senai.exemplos.Funcionario"/>
+    <fullyQualifiedTypeName name="java.lang.AssertionError"/>
+    <fullyQualifiedTypeName name="br.com.senai.exemplos.Assistente"/>
+    <fullyQualifiedTypeName name="br.com.senai.exemplos.Diretor"/>
+</qualifiedTypeNameHistroy>

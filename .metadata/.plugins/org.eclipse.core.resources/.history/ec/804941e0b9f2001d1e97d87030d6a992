@@ -1,0 +1,31 @@
+package exercicio1;
+
+public class Contato extends Telefone {
+	private String nome;
+	private Telefone[] telefones;
+	private Endereco endereco;
+
+	public Contado(String numero, String nome, Endereco endereco) {
+		super(numero);
+		this.nome = nome;
+		this.telefones = telefones;
+		this.endereco = endereco;
+	}
+
+	public Telefone[] getTelefones() {
+		return telefones;
+	}
+
+	public void setTelefones(Telefone[] telefones) {
+		this.telefones = telefones;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public Endereco getEndereco() {
+		return endereco;
+	}
+
+}

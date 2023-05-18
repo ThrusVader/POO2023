@@ -1,0 +1,49 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class Veiculo {
+	String placa;
+	String tipoCombustivel;
+	double valor;
+	int opc;
+
+	public static void main(String[] args) {
+		Tela();
+		System.out.println("\n\t\t\t\t Gas Station \n");
+		Tela();
+	}
+
+	public void Menu() {
+		
+		switch (opc) {
+		case 1:
+			System.out.println("Você escolheu Flex!");
+			break;
+		case 2:
+			System.out.println("Você escolheu Gasolina!");
+			break;
+		case 3:
+			System.out.println("Você escolheu Gás!");
+			break;
+
+		default:
+			System.out.println("Opção inválida!");
+			break;
+		}
+
+	}
+
+	public void Opcoes() {
+
+		System.out.println("");
+	}
+
+	public static void Tela() {
+		for (int i = 0; i < 90; i++) {
+			System.out.println("_");
+		}
+
+	}
+
+}

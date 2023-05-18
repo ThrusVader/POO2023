@@ -1,0 +1,22 @@
+package exercicio1;
+
+public class Estado extends Cidade {
+	private String nomeEstado;
+	private String sigla;
+
+	public Estado(String nome, Telefone[] telefones, String rua, String bairro, String cep, Cidade cidade,
+			String nomeCidade, Estado estado, String nomeEstado, String sigla) {
+		super(nome, telefones, rua, bairro, cep, cidade, nomeCidade, estado);
+		this.nomeEstado = nomeEstado;
+		this.sigla = sigla;
+	}
+
+	public String getNomeEstado() {
+		return nomeEstado;
+	}
+
+	public String getSigla() {
+		return sigla;
+	}
+
+}

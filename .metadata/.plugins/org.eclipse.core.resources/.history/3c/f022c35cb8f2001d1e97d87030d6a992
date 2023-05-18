@@ -1,0 +1,22 @@
+package exercicio1;
+
+public class Cidade extends Endereco {
+	private String nomeCidade;
+	private String estado;
+
+	public Cidade(String nome, Telefone[] telefones, Endereco endereco, String rua, String bairro, String cep,
+			Cidade cidade, String nomeCidade, String estado) {
+		super(nome, telefones, endereco, rua, bairro, cep, cidade);
+		this.nomeCidade = nomeCidade;
+		this.estado = estado;
+	}
+
+	public String getNomeCidade() {
+		return nomeCidade;
+	}
+
+	public String getEstado() {
+		return estado;
+	}
+
+}

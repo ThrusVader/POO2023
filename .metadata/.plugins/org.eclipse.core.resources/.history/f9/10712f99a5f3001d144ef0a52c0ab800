@@ -1,0 +1,17 @@
+package br.com.senai.interfaces;
+
+public class Poupanca implements Conta {
+
+	@Override
+	public void sacar(double valor) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deposito(double valor) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

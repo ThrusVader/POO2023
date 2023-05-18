@@ -1,0 +1,19 @@
+package exemplos;
+
+public class TestePlano {
+
+	public static void main(String[] args) {
+		Clinica clinica = new Clinica("Unimed", "Check-up", "321987654");
+		Medico medico = new Medico("Golden Cross", "Geraldo", 524138);
+		Anestesista anestesista = new Anestesista("Amil", "Jose", 32156, "Geral");
+		
+		clinica.calcularPagamento();
+		medico.calcularPagamento();
+		anestesista.calcularPagamento();
+		
+		System.out.println(clinica);
+		System.out.println(medico);
+		System.out.println(anestesista);
+	}
+
+}

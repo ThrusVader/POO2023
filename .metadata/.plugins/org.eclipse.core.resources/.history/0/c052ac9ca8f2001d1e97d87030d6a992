@@ -1,0 +1,10 @@
+package relacionamentos;
+
+public class Imovel {
+	private String tipo;
+	private String local;
+	private double valor;
+	private Pessoa dono;
+	
+	
+}

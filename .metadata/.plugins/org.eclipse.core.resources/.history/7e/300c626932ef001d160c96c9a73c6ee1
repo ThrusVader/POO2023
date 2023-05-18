@@ -1,0 +1,23 @@
+package exercicios;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class TestarVeiculo {
+	
+
+	public static void main(String[] args) {
+		
+		Scanner ler	= new Scanner (System.in);
+		
+		Veiculo veiculo = new Veiculo();
+		veiculo.placa = JOptionPane.showInputDialog("Digite o nº da placa:");
+		veiculo.tipoCombustivel = JOptionPane.showInputDialog("Esolha o combustivel - Flex, Gasolina ou Gás:");
+		
+		
+		veiculo.valor = Double.parseDouble(JOptionPane.showInputDialog("Valor do carro:"));
+		
+	}
+
+}

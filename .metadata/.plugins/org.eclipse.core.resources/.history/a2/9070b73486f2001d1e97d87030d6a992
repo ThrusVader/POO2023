@@ -1,0 +1,36 @@
+package exemplos;
+
+public class Plano {
+	protected String empresa;
+	protected double valorPago;
+	protected double valorISS;
+
+	public Plano(String empresa) {
+		this.empresa = empresa;
+	}
+
+	public String getEmpresa() {
+		return empresa;
+	}
+
+	public void setEmpresa(String empresa) {
+		this.empresa = empresa;
+	}
+
+	public double getValorPago() {
+		return valorPago;
+	}
+
+	public void setValorPago(double valorPago) {
+		this.valorPago = valorPago;
+	}
+
+	public double getValorISS() {
+		return valorISS;
+	}
+
+	public void setValorISS(double valorISS) {
+		this.valorISS = valorISS;
+	}
+
+}

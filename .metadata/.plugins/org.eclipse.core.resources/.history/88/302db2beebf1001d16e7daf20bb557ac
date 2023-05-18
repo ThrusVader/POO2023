@@ -1,0 +1,19 @@
+package br.com.senai.exercicio;
+
+import java.util.Scanner;
+
+public class TestarSistema {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		Vendedor v1 = new Vendedor("Clarêncio", "123");
+		Vendedor v2 = new Vendedor("Osvaldo", "456");
+		
+		System.out.println("________________________________________________");
+		System.out.println("\n\t\t Sistema de Vendas");
+		System.out.println("________________________________________________");
+		System.out.println("1 - Clarêncio \n2-Osvaldo");
+	}
+
+}

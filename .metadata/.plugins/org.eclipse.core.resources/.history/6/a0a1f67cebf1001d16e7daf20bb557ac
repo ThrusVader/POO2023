@@ -1,0 +1,10 @@
+package br.com.senai.exercicio;
+
+public class TestarSistema {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package br.com.senai.exemplos;
+
+public class Assistente extends Funcionario {
+	private double adicional;
+
+	public Assistente(String nome, String cpf, double salario, String turno, double adicional) {
+		super(nome, cpf, salario, turno);
+		this.adicional = adicional;
+	}
+
+	public double getAdicional() {
+		return adicional;
+	}
+
+	public void setAdicional(double adicional) {
+		this.adicional = adicional;
+	}
+
+}

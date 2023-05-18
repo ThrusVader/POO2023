@@ -1,0 +1,77 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class Veiculo {
+	String placa;
+	String tipoCombustivel;
+	double valor;
+	int opc;
+
+	public static void main(String[] args) {
+		Tela();
+		System.out.println("\n\t\t\t Gas Station");
+		Tela();
+		
+		Opcoes();
+		Menu();
+	}
+
+	public static void Menu() {
+		Scanner ler	= new Scanner (System.in);
+		System.out.println(" Digite uma opção:");
+		int opc = ler.nextInt();
+		switch (opc) {
+		case 1:
+			System.out.println("Informe o nº da placa:");
+			String placa = ler.next();
+			Opcoes();
+			Menu();
+			break;
+		case 2:
+			System.out.println("Você escolheu Flex!");
+			break;
+		case 3:
+			System.out.println("Você escolheu Gasolina!");
+			break;
+		case 4:
+			System.out.println("Você escolheu Gás!");
+			break;
+		case 5:
+			System.out.println("Informe o valor do carro:");
+			double valor = ler.nextDouble();
+			Opcoes();
+			Menu();
+			
+			break;
+
+		default:
+			System.out.println("Opção inválida!");
+			break;
+		}
+
+	}
+
+	public static void Opcoes() {
+
+		System.out.println(" ____________________ ");		
+		System.out.println("\n 1 - Placa ");
+		System.out.println(" ____________________ ");		
+		System.out.println(" Tipo de Combustível");
+		System.out.println(" ____________________ ");		
+		System.out.println(" 2 - Flex ");
+		System.out.println(" 3 - Gasolina ");
+		System.out.println(" 4 - Gás ");
+		System.out.println(" ____________________ ");		
+		System.out.println(" 5 - Valor do carro ");
+		System.out.println(" ____________________ ");		
+	}
+
+	public static void Tela() {
+		for (int i = 0; i < 1; i++) {
+			System.out.println("______________________________________________________________");
+		}
+
+	}
+
+}

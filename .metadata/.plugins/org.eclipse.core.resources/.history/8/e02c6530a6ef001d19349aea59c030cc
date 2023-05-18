@@ -1,0 +1,52 @@
+package br.com.senai.exemplos;
+
+public class Setor {
+
+	private int numero;
+	private String nome;
+	private int qtdeFuncionarios;
+	
+	//Construtor padrão ou default - sem parâmetros
+	public Setor() {
+		System.out.println("Construtor vazio");
+	}
+	
+	//Construtor com o nome do setor - com 3 parâmetros
+	public Setor(int numero, String nome, int qtdeFuncionarios) {
+		this.nome = nome;
+		this.numero = numero;
+		this.qtdeFuncionarios = qtdeFuncionarios;
+	}
+	
+	public Setor(String nome) {
+		System.out.println("Construtor com nome");
+		this.nome = nome;
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public int getQtdeFuncionarios() {
+		return qtdeFuncionarios;
+	}
+
+	public void setQtdeFuncionarios(int qtdeFuncionarios) {
+		this.qtdeFuncionarios = qtdeFuncionarios;
+	}
+	
+	
+
+}

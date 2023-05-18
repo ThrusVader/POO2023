@@ -1,0 +1,6 @@
+package br.com.senai.interfaces;
+
+public interface Conta {
+	public void sacar(double valor);
+	public void deposito(double valor);
+}

@@ -1,0 +1,9 @@
+package exercicios;
+
+public class Veiculo {
+	String placa;
+	String tipoCombustivel;
+	double valor;
+	
+	}
+}
