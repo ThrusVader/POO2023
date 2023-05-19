@@ -16,7 +16,7 @@ public class Lutador {
 
 	@Override
 	public String toString() {
-		return "Lutador [nome=" + nome + ", categoria=" + categoria + ", idade=" + idade + ", peso=" + peso + "]";
+		return "Lutador:" + nome + ", categoria:" + categoria + " idade:" + idade + " peso:" + peso;
 	}
 
 	public String getNome() {

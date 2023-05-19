@@ -11,6 +11,14 @@ public class Categoria {
 	}
 
 	@Override
+	public boolean equals(Object obj) {
+		if (obj.equals(nome)) {
+			return true;
+		}
+		return false;
+	}
+
+	@Override
 	public String toString() {
 		return "Categoria [codigo=" + codigo + ", nome=" + nome + "]";
 	}
